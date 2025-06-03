@@ -1,0 +1,16 @@
+[project]
+name = "chatterbox"
+description = "An unofficial ComfyUI custom node integration for [a/Resemble AI's ChatterBox](https://github.com/resemble-ai/chatterbox) - a state-of-the-art open-source Text-to-Speech (TTS) model with voice cloning capabilities."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["# ChatterboxTTS Dependencies for ComfyUI", "# Install with: pip install -r requirements.txt", "s3tokenizer>=0.1.7", "resemble-perth", "librosa", "omegaconf", "accelerate"]
+
+[project.urls]
+Repository = "https://github.com/ShmuelRonen/ComfyUI_ChatterBox"
+#  Used by Comfy Registry https://registry.comfy.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_ChatterBox"
+Icon = ""
+includes = []
